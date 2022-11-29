@@ -10,7 +10,7 @@ So we can:
 
 App save data in local storage, has a counter of completed and available tasks.
 
-[Link to the working page](https://plupiks.github.io/Angular-Todolist-v1/)
+[Link to the working page](https://github.com/Plupiks/React-Todolist-v1/blob/5f97983616045c69060e63314d7f6fec84a13d29/todolist-image.png)
 
 ## My Portfolio Link
 <div id="portfolio" align="left">
