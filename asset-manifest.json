@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e55aacb4.css",
-    "main.js": "/static/js/main.b9a1a14a.js",
-    "static/media/Overpass-Regular.ttf": "/static/media/Overpass-Regular.6bc712f590eef4f9937f.ttf",
-    "static/media/Overpass-SemiBold.ttf": "/static/media/Overpass-SemiBold.370fdf6778e2ffd80158.ttf",
-    "static/media/Overpass-Black.ttf": "/static/media/Overpass-Black.443263a5fcc35b6d228e.ttf",
-    "index.html": "/index.html",
-    "main.e55aacb4.css.map": "/static/css/main.e55aacb4.css.map",
-    "main.b9a1a14a.js.map": "/static/js/main.b9a1a14a.js.map"
+    "main.css": "/React-Todolist-v1/static/css/main.805c2764.css",
+    "main.js": "/React-Todolist-v1/static/js/main.b9a1a14a.js",
+    "static/media/Overpass-Regular.ttf": "/React-Todolist-v1/static/media/Overpass-Regular.6bc712f590eef4f9937f.ttf",
+    "static/media/Overpass-SemiBold.ttf": "/React-Todolist-v1/static/media/Overpass-SemiBold.370fdf6778e2ffd80158.ttf",
+    "static/media/Overpass-Black.ttf": "/React-Todolist-v1/static/media/Overpass-Black.443263a5fcc35b6d228e.ttf",
+    "index.html": "/React-Todolist-v1/index.html",
+    "main.805c2764.css.map": "/React-Todolist-v1/static/css/main.805c2764.css.map",
+    "main.b9a1a14a.js.map": "/React-Todolist-v1/static/js/main.b9a1a14a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e55aacb4.css",
+    "static/css/main.805c2764.css",
     "static/js/main.b9a1a14a.js"
   ]
 }
