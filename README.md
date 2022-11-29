@@ -1,6 +1,6 @@
 # Todolist (React)
 
-![](https://github.com/Plupiks/Angular-Todolist-v1/blob/b25b324644188e363a7ccdb389d7676d59c26486/todoapp-image.jpg)
+![](https://github.com/Plupiks/React-Todolist-v1/blob/5f97983616045c69060e63314d7f6fec84a13d29/todolist-image.png)
 
 ## About:
 So we can:
