@@ -7,6 +7,7 @@ So we can:
 - Create new tasks
 - Edit tasks (modal window)
 - Delete task
+
 App save data in local storage, has a counter of completed and available tasks.
 
 [Link to the working page](https://plupiks.github.io/Angular-Todolist-v1/)
