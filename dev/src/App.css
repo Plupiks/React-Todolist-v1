@@ -1,0 +1,15 @@
+.todolist {
+  padding: 75px 30px;
+}
+
+.todolist__title {
+  font-family: 'Overpass-900';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 51px;
+  color: #ff7d04;
+
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}

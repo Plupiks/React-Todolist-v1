@@ -1,0 +1,135 @@
+.taskmodal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.taskmodal__body {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 300px;
+  z-index: 101;
+  background-color: #fff;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+/* Close button */
+.taskmodal__close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: #ff7d04;
+  cursor: pointer;
+}
+
+.taskmodal__close svg {
+  fill: #fff;
+}
+
+.taskmodal__close:hover {
+  background-color: #e87203;
+}
+.taskmodal__close:active {
+  background-color: #ff891b;
+}
+
+.taskmodal__title {
+  font-family: 'Overpass-400';
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #5a5a5a;
+}
+
+/* Edit task input */
+.taskmodal__input {
+  font-size: 20px;
+  color: #5a5a5a;
+
+  width: 100%;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid rgb(215, 215, 215);
+  padding: 16px 20px;
+  transition: border-color 0.1s ease-in-out;
+  margin-bottom: 15px;
+}
+.taskmodal__input:focus {
+  outline: none;
+  border: 1px solid rgb(157, 157, 157);
+}
+.taskmodal__input::placeholder {
+  font-size: inherit;
+  color: #d6d2d2;
+}
+
+/* Taskmodal actions */
+.taskmodal__actions {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.taskmodal__apply,
+.taskmodal__reset {
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.taskmodal__apply {
+  background-color: #ff7d04;
+  color: #fff;
+}
+.taskmodal__apply:hover {
+  background-color: #ee7300;
+}
+.taskmodal__apply:active {
+  background-color: #ff8616;
+}
+
+.taskmodal__reset:hover {
+  background-color: #e6e6e6;
+}
+.taskmodal__reset:active {
+  background-color: #ebebeb;
+}
+
+@media only screen and (max-width: 700px) {
+  .taskmodal__body {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .taskmodal__actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

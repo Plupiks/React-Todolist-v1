@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Overpass-900';
+  src: url(../public/fonts/Overpass-Black.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Overpass-600';
+  src: url(../public/fonts/Overpass-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Overpass-400';
+  src: url(../public/fonts/Overpass-Regular.ttf);
+  font-weight: 400;
+}

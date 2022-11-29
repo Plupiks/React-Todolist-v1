@@ -1,0 +1,109 @@
+.newtask {
+  font-family: 'Overpass-400';
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 15px;
+  
+  --buttonWidth: 94px;
+}
+
+.newtask__body {
+  display: flex;
+  width: 681px;
+  height: 57px;
+
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #f0f0f0;
+}
+
+/* Newtask Input */
+.newtask__input {
+  font-size: 20px;
+  color: #5a5a5a;
+
+  width: calc(100% - var(--buttonWidth));
+  border: 1px solid transparent;
+  border-right: none;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  padding: 16px 20px;
+  transition: border-color 0.1s ease-in-out;
+}
+.newtask__input:focus {
+  outline: none;
+  border: 1px solid rgb(215, 215, 215);
+  border-right: none;
+}
+.newtask__input:hover {
+  border: 1px solid rgb(215, 215, 215);
+  border-right: none;
+}
+.newtask__input::placeholder {
+  font-size: inherit;
+  color: #d6d2d2;
+}
+
+/* Newtask Submit Button */
+.newtask__submit {
+  border: none;
+  outline: none;
+  border-radius: 0 10px 10px 0;
+  transition: background-color 0.1s ease-in-out;
+  overflow: hidden;
+
+  width: 94px;
+
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+}
+.newtask__submit:hover span {
+  background-color: #f47e10;
+}
+.newtask__submit:active span{
+  background-color: #fe9533;
+}
+.newtask__submit span{
+  display: block;
+  background-color: #ff7d04;
+  padding: 18.5px 25px;
+}
+
+/* Adaptive */
+@media only screen and (max-width: 760px) {
+ .newtask__body {
+  width: 100%;
+ }
+}
+
+@media only screen and (max-width: 500px) {
+  .newtask {
+    margin-bottom: 30px;
+  }
+
+  .newtask__body {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+   }
+
+   .newtask__input {
+    width: 100%;
+    border-right: unset;
+    border: 1px solid transparent;
+    border-radius: 10px;
+   }
+   .newtask__input:focus, .newtask__input:hover {
+    border-right: unset;
+    border: 1px solid rgb(215, 215, 215);
+   }
+
+   .newtask__submit {
+    width: 100%; 
+    border-radius: 10px;
+   }
+}

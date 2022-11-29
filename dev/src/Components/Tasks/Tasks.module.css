@@ -1,0 +1,8 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 680px;
+  overflow: hidden;
+  margin: 0 auto;
+}
