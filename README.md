@@ -1,4 +1,4 @@
-# Todolist (React)
+# Todolist (React) v1.1
 
 ![](https://github.com/Plupiks/React-Todolist-v1/blob/0db87bf200061e0aec8136b6eeec07984b20c2ea/todolist-image.png)
 ![](https://github.com/Plupiks/React-Todolist-v1/blob/5464c0fffad73815fb390c93eb12f1ece7814ca8/todolist_modal.png)
